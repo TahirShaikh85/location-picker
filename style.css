@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#map{
+    width: 90%;
+    height: 468px;
+    margin: 20px auto;
+}
+.show-details{
+    margin: 10px auto;
+}
+.show-details .confirm-position{
+    margin: 15px 0 20px 80px;
+    padding: 12px 25px;
+    color: whitesmoke;
+    background: #ff9f1a;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: -3px 1px 19px -5px #cca508;
+}
+p{
+    font-size: 20px;
+    margin: 0 0 20px 80px;
+    color:#111;
+}
+span{
+    color: #ff9f1a;
+}

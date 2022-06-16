@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- include Google map API -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Jrp9PtHe0WapppUzxbIpMDWMAcV3qE4"></script>
+    <!-- include location Picker package -->
+    <script src="https://unpkg.com/location-picker/dist/location-picker.min.js"></script>
+    <!-- include stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Location Picker</title>
+</head>
+<body>
+<div class="container">
+    <div class="heading" id="heading">
+        <h1>Pick your Location</h1>
+    </div>
+    <div class="map" id="map"></div>
+    <div class="show-details">
+        <button class="confirm-position" id="confirm-position">Confirm Position</button>
+        <p>Your Idle Position is: <span id="idle-position"></span></p>
+        <p>Your confirmed Position is: <span id="confirmed-position"></span></p>
+    </div>
+</div>
+
+<!-- include JS file -->
+<script src="main.js"></script>
+</body>
+</html>
